@@ -1,0 +1,84 @@
+public void mouseClicked(MouseEvent e) {
+		// TODO Auto-generated method stub
+	
+		if(select = false) {
+		  int i = e.getButton();
+		  
+		  
+			
+			
+			
+			
+			
+			
+			
+			
+			select = true;
+		}
+		if(e.getSource() == button1) {
+			System.out.println(button2.getName());	
+			this.remove(button1);
+			turn(button1);
+			panel1.add(button1);
+			panel1.repaint();
+			panel1.revalidate();
+			
+		}
+		else if(e.getSource() == button2)
+		{
+			remove(button2);
+			turn(button2);
+			repaint();
+			revalidate();
+		}
+		else if(e.getSource() == button3)
+		{
+			remove(button3);
+			turn(button3);
+			repaint();
+			revalidate();
+		}
+		else if(e.getSource() == button4)
+		{
+			remove(button4);
+			turn(button4);
+			repaint();
+			revalidate();
+		}
+		else if(e.getSource() == button5)
+		{
+			remove(button5);
+			turn(button5);
+			repaint();
+			revalidate();
+		}
+		else if(e.getSource() == button6)
+		{
+			remove(button6);
+			turn(button6);
+			repaint();
+			revalidate();
+		}
+		else if(e.getSource() == button7)
+		{
+			remove(button7);
+			turn(button7);
+			repaint();
+			revalidate();
+		}
+		else if(e.getSource() == button8)
+		{
+			remove(button8);
+			turn(button8);
+			repaint();
+			revalidate();
+		}
+		else if(e.getSource() == button9)
+		{
+			remove(button9);
+			turn(button9);
+			repaint();
+			revalidate();
+		}
+		
+	}
